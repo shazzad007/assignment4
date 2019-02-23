@@ -1,0 +1,621 @@
+/*Global Css*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+img {
+	display: block;
+}
+
+
+.logo {
+
+width: 20%;
+float: left;
+}
+
+.logo img {
+
+width: 150px;
+}
+
+.menu-bar {
+
+width: 50%;
+font-size: 21px;
+float: left;
+font-weight: bold;
+
+}
+
+nav ul {
+
+list-style: none;
+}
+
+nav ul li {
+
+display: inline-block;
+margin: 38px 24px;
+}
+
+nav ul li a{
+
+text-decoration: none;
+font-size: 12px;
+color: #161616;
+}
+
+.social-icon {
+
+width: 30%;
+float: left;
+}
+
+.social-icon ul{
+
+list-style: none;
+}
+
+.social-icon ul li{
+
+	display: inline-block;
+	margin: 38px 13px;
+    transition: 0.8s ease;
+}
+
+.social-icon ul li a{
+    color: #fff;
+
+}
+
+.fa.fa-facebook {
+    background: #243388;
+    color: #fff;
+    padding: 4px 8px;
+    transition: 0.8s ease;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+    -o-transition: 0.8s ease;
+    -ms-transition: 0.8s ease;
+}
+
+.fa.fa-facebook:hover {
+    transform: rotate(360deg);
+}
+
+.fa.fa-twitter {
+    background: #2196F3;
+    color: #fff;
+    padding: 4px 8px;
+    transition: 0.8s ease;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+    -o-transition: 0.8s ease;
+    -ms-transition: 0.8s ease;
+}
+
+.fa.fa-twitter:hover {
+    transform: rotate(360deg);
+}
+
+.fa.fa-linkedin {
+    background: #3F51B5;
+    color: #fff;
+    padding: 4px 8px;
+    transition: 0.8s ease;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+    -o-transition: 0.8s ease;
+    -ms-transition: 0.8s ease;
+}
+
+.fa.fa-linkedin:hover {
+    transform: rotate(360deg);
+}
+
+.fa.fa-google-plus {
+    background: #AE311B;
+    color: #fff;
+    padding: 4px 8px;
+    transition: 0.8s ease;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+    -o-transition: 0.8s ease;
+    -ms-transition: 0.8s ease;
+}
+
+.fa.fa-google-plus:hover {
+    transform: rotate(360deg);
+}
+
+.social-icon ul li a{
+
+color: #161616;
+}
+.fa.fa-sign-in:after {
+	content: 'sign in';
+    padding: 0px 3px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #161616
+
+}
+
+
+
+.hero {
+	background:url(../img/finance.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+.banner{
+    width: 500px;
+    background-color: #96132a;
+    margin: 50px 25px;
+    background: rgba(0,0,0,.3);
+    padding: 70px;
+    border-radius: 10px;
+}
+
+.banner h2{
+    font-size: 55px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.banner p{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+.banner ul{
+    
+    text-align: center;
+}
+
+.banner ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.banner ul li a{
+    text-decoration: none;
+    background: #04B404;
+    padding: 15px 10px;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    
+
+}
+.feature {
+
+}
+
+.feature-one {
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin: 58px 0px;
+	
+}
+
+.fa.fa-check{
+    background: #3F51B5;
+    padding: 21px;
+    color: #fff;
+    border-radius: 44px;
+    font-size: 44px;
+    margin-bottom: 16px;
+}
+
+.feature-one h2{
+    text-transform: capitalize;
+    margin: 15px 0px;
+}
+
+.feature-one p{
+    text-align: justify;
+    padding: 20px;
+    
+}
+
+
+.btn {
+    background-color: #04B404;
+    padding: 5px 10px;
+    margin-top: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.8s ease;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+    -o-transition: 0.8s ease;
+    -ms-transition: 0.8s ease;
+    
+}
+
+.btn:hover {
+    background-color: grey;
+    color: red;
+    border:2px solid black;
+}
+
+.feature-two {
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin: 58px 0px;
+    
+}
+
+.fa.fa-map-marker{
+    background: #3F51B5;
+    padding: 21px 32px ;
+    color: #fff;
+    border-radius: 44px;
+    font-size: 44px;
+    margin-bottom: 16px;
+}
+
+
+.feature-two h2{
+    text-transform: capitalize;
+    margin: 15px 0px;
+}
+   
+
+.feature-two p{
+    text-align: justify;
+    padding: 20px;
+    
+}
+
+.feature-three{
+     width: 25%;
+    float: left;
+    text-align: center;
+    margin: 58px 0px;
+
+}
+
+.fa.fa-money{
+    background: #009688;
+    padding: 21px;
+    color: #fff;
+    border-radius: 44px;
+    font-size: 44px;
+    margin-bottom: 16px;
+}
+
+.feature-three h2{
+    text-transform: capitalize;
+    margin: 15px 0px;
+}
+
+.feature-three p{
+    text-align: justify;
+    padding: 20px;
+    
+}
+
+
+
+.feature-four{
+     width: 25%;
+    float: left;
+    text-align: center;
+    margin: 58px 0px;
+
+}
+
+.fa.fa-user-plus{
+    background: green;
+    padding: 21px;
+    color: #fff;
+    border-radius: 44px;
+    font-size: 44px;
+    margin-bottom: 16px;
+
+}
+
+.feature-four h2{
+    text-transform: capitalize;
+    margin: 15px 0px;
+}
+
+.feature-four p{
+    text-align: justify;
+    padding: 20px;
+    
+}
+
+.leave-msg{
+    position: fixed;
+    top: 50%;
+    right: 0;
+}
+
+.leave-msg a{
+    text-decoration: none;
+    font-size: 15px;
+    background: #494949;
+    color: #fff;
+    border-radius: 5px 0px 0px 2px;
+    padding: 6px;
+
+}
+
+
+.plan-one{
+    width: 35%;
+    background-color: #86aebb;
+    float: left;
+    margin: 20px;
+    padding: 50px;
+
+}
+
+.plan-one h2{
+    text-align: left;
+    color: #161616;
+    margin-bottom:20px;
+    font-size: 32px;
+    
+}
+
+.plan-one ul{
+    list-style: none;
+}
+.plan-one ul li{
+     margin: 15px 0px;
+
+}
+.fa.fa-stop-circle-o{
+    color: green;
+    padding-right: 10px;
+}
+
+
+.plan-two{
+    width: 35%;
+    background-color: #86aebb;
+    float: right;
+    margin: 20px;
+    padding: 50px;
+    
+}
+
+.plan-two h2{
+    text-align: left;
+    color: #161616;
+    margin-bottom:20px;
+    font-size: 32px;
+    font-weight: 700px; 
+
+
+}
+
+.plan-two ul{
+    list-style: none;
+}
+.plan-two ul li{
+    margin: 15px 0px;
+
+}
+
+
+.blog{
+
+}
+.container h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #095169;
+
+}
+
+.blog-one{
+    width: 43%;
+    float: left;
+    padding: 14px;
+
+}
+
+.blog-one h2 {
+    color: #095169;
+    text-align: left;
+    margin-bottom:13px;
+    
+}
+
+.blog-one p{
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+
+.blog-two{
+    width: 43%;
+    float: right;
+    margin-left: 20px;
+    padding: 14px;
+
+}
+
+.blog-two h2 {
+    color: #095169;
+    text-align: left;
+    margin-bottom:33px;
+    
+}
+
+.blog-two p{
+    margin-top: 25px;
+    padding: 10px;
+}
+
+
+.achievement{
+    width: 1140px;
+    margin: 40px auto;
+    background: grey;
+    padding: 30px 0px;
+}
+
+.achievement-part {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.achievement-part h6{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.achievement-part p{
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fa.fa-credit-card{
+    padding: 5px;
+}
+.fa.fa-users{
+    padding-right: 5px;
+}
+
+.fa.fa-files-o{
+    padding-right: 5px;
+}
+
+
+
+.review{
+    padding: 20px 0px;
+}
+
+.fa.fa-star {
+    background: #fff;
+    color: green;
+    font-size: 36px;
+    padding: 5px;
+
+}
+
+.fa.fa-star-o {
+    background: #73CF11;
+    color: #fff;
+    font-size: 36px;
+    padding: 5px;
+
+}
+
+.fa.fa-star-o.no-review{
+    background: grey;
+    color: white;
+
+}
+
+.review-section{
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.review-section h2{
+    text-transform: capitalize;
+     margin: 3px;
+
+}
+
+.review-section ul{
+    list-style: none;
+}
+
+.review-section ul li{
+    display: inline-block;
+    margin: 1px;
+
+}
+
+
+.lendino{
+    width: 1120px;
+    background: grey;
+    padding: 10px ;
+    margin: 0 auto;
+    
+
+}
+
+.lendino h2{
+    text-align: center;
+    color: #fff;
+    padding: 24px;
+    
+}
+
+.lendio-section{
+    margin: 15px 0px
+    padding: 44px 0px;
+}
+
+.lendino-one{
+    width: 20%;
+    float: left;
+   
+}
+    
+
+.lendino-one img{
+    display: block;
+    width: 150px;
+    padding: 10px 30px;
+}
+
+
+footer{
+    padding: 10px;
+    background: #052D3A;
+    
+}
+
+.footer-top{
+    width: 600px;
+   color: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-one{
+    width: 50%;
+    float: left;
+   
+    
+}
+
+.footer-one ul{
+    list-style: none;
+    
+}
